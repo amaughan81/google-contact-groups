@@ -1,0 +1,6 @@
+{
+  "secret_path" : "/path/to/secret.json",
+  "client_path" : "/path/to/client.json",
+  "subject" : "email@domain.com",
+  "developerKey": ""
+}

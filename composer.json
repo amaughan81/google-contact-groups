@@ -1,0 +1,21 @@
+{
+  "name": "amaughan81/google-contact-groups",
+  "description": "Manage Google Contact Groups with V3 API in a Server-to-Server Application",
+  "license": "MIT",
+  "keywords": ["Google","Contacts","Groups"],
+  "author": [{
+    "name": "Andrew Maughan",
+    "email": "andrew+dev@maughan.org.uk"
+  }],
+  "require": {
+    "google/apiclient": "^2.0",
+    "google/apiclient-services" : "dev-master",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "amaughan81\\": "vendor/amaughan81/GoogleContactGroups/src/"
+    }
+  }
+}
